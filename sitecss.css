@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    
+}
+.container{
+    display: grid;
+}
+
+.container2{
+    display: flex;
+}
+
+header{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    text-align: center;
+    background-color: black;
+    color: orange;
+}
+
+.wrapper{
+    background-color: rgba(255, 166, 0, 0.623) ;
+}
+
+nav{
+    background-color: black;
+}
+.menu{ 
+    grid-column-start: 4;
+    grid-column-end: 12;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imagem_minha{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: white;
+        
+}
+.imagem_minha2{
+    background-color: white;
+}
+.principal{
+    grid-column-start: 4;
+    grid-column-end: 12;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: black;
+    color: orange;
+    text-align: center;
+}
+
+.descricao{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: justify;
+    width: 100%;
+}
+
+.img {
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+.img img {
+    width: 100%;
+    height: auto;
+}
+ul{
+    list-style-type: none;
+    color: rgb(78, 78, 78);
+}
+
+a,
+a:link{
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: black;
+    color: orange;
+    border: solid rgb(8, 8, 8) 1px;
+}
+
+li{
+    float: left;
+}
+
+a:hover{
+    background-color: orange;
+    color: black;
+}
+
+
+/*Para dispositivos móveis*/
+@media only screen and (max-width: 757px){
+    .wrapper{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .imagem_minha{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .principal{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
