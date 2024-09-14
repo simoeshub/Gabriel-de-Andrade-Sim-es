@@ -114,4 +114,9 @@ a:hover{
         grid-column-start: 1;
         grid-column-end: 1;
     }
+
+    .container2{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
 }
