@@ -1,7 +1,7 @@
 body{
-    margin: 0;
-    
+   margin: 0;      
 }
+
 .container{
     display: grid;
 }
@@ -10,7 +10,26 @@ body{
     display: flex;
     
 }
-
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.principal2{
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+    max-width: 500px;
+    width: 100%; 
+    padding: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+label{
+    font-weight: bold;
+}
 header{
     grid-column-start: 1;
     grid-column-end: 12;
@@ -18,9 +37,28 @@ header{
     background-color: black;
     color: orange;
 }
-
+input[type=""] {
+    width: 100%; 
+    padding: 5px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+button {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 4px; 
+    background-color: orange; 
+    color: #fff; 
+    cursor: pointer; 
+}
+button:hover {
+    background-color: black; 
+    color: orange;
+}
 .wrapper{
-    background-color: rgba(255, 166, 0, 0.623) ;
+   background-color: rgba(255, 166, 0, 0.623) ;
 }
 
 nav{
@@ -56,6 +94,8 @@ footer{
     background-color: black;
     color: orange;
     text-align: center;
+    margin-top: auto;
+    
 }
 
 .descricao{
@@ -72,7 +112,7 @@ footer{
     margin-bottom: 0.8rem;
 }
 .img img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 ul{
@@ -85,14 +125,18 @@ a:link{
     text-decoration: none;
     padding: 8px 16px;
     background-color: black;
-    color: orange;
+    color: white;
     border: solid rgb(8, 8, 8) 1px;
 }
 
 li{
     float: left;
 }
-
+.linha{
+    display: flex;
+    float: none;
+    
+}
 a:hover{
     background-color: orange;
     color: black;
