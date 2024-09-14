@@ -8,6 +8,7 @@ body{
 
 .container2{
     display: flex;
+    flex-wrap: wrap;
 }
 
 header{
